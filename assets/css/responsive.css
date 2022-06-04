@@ -1,0 +1,194 @@
+/*
+Responsive Stylesheet v1.6.1
+Last Updated: 2017-11-17
+Author: Kapamau
+http://hmhyouthfoundation.org
+
+*/
+
+/*-------------Responsive--------------------------------*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  ul.recent-posts li h3,
+  ul.recent-posts li span{
+    /* float:left;
+    display: inline-block;
+    width: 60%;
+    margin-left: 10px; */
+    font-size: 13px;
+  }
+
+  .blog-detail {
+     position: relative;
+     display: block;
+  }
+
+  .blog-detail-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .blog-detail .blog-detail-content .blog-author span:last-child{
+    display: none;
+  }
+
+  .blog-detail .blog-detail-content h2.blog-title{
+    font-size: 24px;
+    margin: 20px 0px 10px;
+  }
+
+  .blog-detail .blog-detail-content{
+    padding: 0px 0px 5px;
+  }
+
+  .post-author img{
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+
+  .md320{
+    display: block;
+    margin-top: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+
+  .comment-respond .comment-form-comment > textarea{
+    margin: 9px 0 0;
+    padding: 11px 2%;
+    width: 100%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+   }
+
+  .comment-respond .comment-form-author,
+  .comment-respond .comment-form-email,
+  .comment-respond .comment-form-url{
+     display: block;
+     width: 100%;
+     margin-right: 0px;
+  }
+
+  .comment-respond p input[type=text],
+  .comment-respond p input[type=email],
+  .comment-respond p input[type=url]{
+   float: left;
+   width: 100%;
+   padding: 10px;
+   margin-right: 0px;
+   margin-bottom: 10px;
+  }
+
+  ol.comment-list{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .index-template .col-md-9{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .header-top ul{
+       display: none;
+    }
+
+    .header-top .tagline{
+       float: none;
+       text-align: center;
+    }
+
+    .carousel-caption {
+       width: 80%;
+       text-align: left;
+    }
+
+    .carousel-caption h1 {
+     font-size: 30px;
+    }
+
+    .carousel .item {
+      height: 300px;
+      background-color: transparent;
+    }
+
+    .carousel .item img{
+      width: 100%;
+      height: 300px;
+    }
+
+    .post-author .post-author-content{
+      width: 65% !important;
+    }
+
+   .macro-ws-footer{
+     margin-bottom: 30px;
+     padding: 0px 30px;
+   }
+
+   .macro-ws-footer:last-child{
+     margin-bottom: 0px;
+   }
+
+   input.search-submit {
+    margin-left: -20%;
+  }
+
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .carousel-caption {
+     width: 75%;
+   }
+
+  .carousel-caption h1 {
+     font-size: 35px;
+   }
+
+  .carousel .item {
+     height: 460px;
+     background-color: transparent;
+   }
+
+  .carousel .item img{
+     width: 100%;
+     height: 460px;
+   }
+
+   .post-author .post-author-content{
+      width: 65% !important;
+    }
+
+    input.search-submit {
+      margin-left: -27.5%;
+   }
+
+  .md320{
+    display: block;
+    margin-top: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+
+  .index-template .col-md-9{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+@media screen and (min-width:1199px) {
+      nav ul.nav-menu { display:block !important; }
+}
